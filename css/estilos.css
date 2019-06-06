@@ -64,6 +64,7 @@ article#second{
 	padding: 20px;
 	margin: 0.2em auto;
 	width: 23%;
+	min-width: 200px;
 	max-width: 580px;
 	min-height: 200px;
 	vertical-align: top;
@@ -76,10 +77,33 @@ article#lectura{
 	padding: 20px;
 	margin: 0.2em auto;
 	width: 85%;
-	max-width: 1000px;
+	max-width: 850px;
 	min-height: 200px;
+	min-width: 200px;
 	vertical-align: top;
 }
+
+article#titulo{
+	text-align: justify;
+	border: 1px solid #808080;
+	display: inline-block;
+	padding: 20px;
+	margin: 0.2em auto;
+	width: 85%;
+	max-width: 850px;
+	min-height: 64px;
+	min-width: 200px;
+	vertical-align: top;
+}
+
+#img{
+	text-align: center;
+	float: left;
+	width: 8em;
+	height: 10em;
+	padding-left: 5px;
+}
+
 
 /* aside */
 aside#moodle{
@@ -90,13 +114,17 @@ aside#moodle{
 	padding: 20px;
 	margin: 0.2em auto;
 	width: 20%;
-	max-width: 580px;
+	min-width: 200px;
+	max-width: 600px;
 	min-height: 460px;
 	vertical-align: top;
 	border-radius: 5px;
 }
 #tweet{
 	height: 200px;
+	width: 100%;
+	min-width: 180px;
+	max-width: 650px;
 }
 
 /* nav, footer */
