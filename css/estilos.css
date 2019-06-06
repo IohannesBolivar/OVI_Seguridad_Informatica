@@ -21,7 +21,6 @@ header{
 
 #content{
 	overflow:hidden;
-	white-space:nowrap;
 	text-overflow:ellipsis;
 	min-height:1.1em;
 }
@@ -52,7 +51,7 @@ article#principal{
 	display: inline-block;
 	padding: 20px;
 	margin: 0.2em auto;
-	width: 65%;
+	width: 60%;
 	max-width: 580px;
 	min-height: 200px;
 	vertical-align: top;
@@ -64,11 +63,24 @@ article#second{
 	display: inline-block;
 	padding: 20px;
 	margin: 0.2em auto;
-	width: 30%;
+	width: 23%;
 	max-width: 580px;
 	min-height: 200px;
 	vertical-align: top;
 }
+
+article#lectura{
+	text-align: justify;
+	border: 1px solid #808080;
+	display: inline-block;
+	padding: 20px;
+	margin: 0.2em auto;
+	width: 85%;
+	max-width: 1000px;
+	min-height: 200px;
+	vertical-align: top;
+}
+
 /* aside */
 aside#moodle{
 	text-align: justify;
@@ -77,12 +89,16 @@ aside#moodle{
 	display: inline-block;
 	padding: 20px;
 	margin: 0.2em auto;
-	width: 15%;
+	width: 20%;
 	max-width: 580px;
-	min-height: 200px;
+	min-height: 460px;
 	vertical-align: top;
 	border-radius: 5px;
 }
+#tweet{
+	height: 200px;
+}
+
 /* nav, footer */
 nav,footer{
 	background: #005883;
@@ -181,4 +197,17 @@ footer{
 #foot{
 	padding-top: 2.5em;
 	color:#FFF;
+}
+
+/* Por debajo de 700px */
+@media screen and (max-width: 700px){
+body{
+font-size:12px;
+}
+}
+/* Por debajo de 400px */
+@media screen and (max-width: 400px){
+body{
+font-size:10px;
+}
 }
